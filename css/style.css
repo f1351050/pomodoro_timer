@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+.full {
+    /* min-height: 50px; */
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url('../images/img6.jpg') 
+      center / cover;
+  }
+
+.backToumei{
+    padding:0%;
+    min-height: 200px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(34, 0, 185, 0.267);
+}
+
+.icon{
+    float: left; 
+    /* position: absolute; */
+    width:100%;
+    /* padding:0%; */
+    padding-top:10px; 
+    background-color: rgba(0, 0, 0, 0.623);
+    /* z-index: 3; */
+}
+
+.icon h1{
+    display: inline-block; 
+    /* position: absolute; */
+    color:rgb(255, 239, 239);
+    padding-left: 30px;
+    padding-right: 20px;
+    /* float: left; */
+}
+
+.circle{
+    display: inline-block;
+    /* position: absolute; */
+    padding: 2;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(248, 246, 246, 0.514);/*背景色*/
+    /* z-index: 1; */
+  }
+  
+.icon img{
+    position: absolute;
+	width:30px;
+    padding-left: 5px;
+    padding-top: 5px; 
+    padding-bottom: 0;
+    image-rendering: -webkit-optimize-contrast; 
+    /* padding-top: 5%; */
+    z-index: 2;
+}
+    .icon #kirokuBan{
+        position: absolute;
+        display:none;
+        z-index: 0;
+        left: 230px; 
+    }
+
+.heightCenter{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* padding-top: 25px; */
+    width:100%;
+    /* height:100%; */
+}
+
+   #remainingTime{
+    color: #f0f8ff;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 50;
+}
+
+#hidden{
+    font-size: 20px;
+    color: #f0f8ff;
+    padding-top: 10;
+}
+
+/*　タイマーの種類を変更するためのスライダー  */
+.slideText{
+    position: relative;
+    list-style: none;
+    width: 500px;
+    font-size: 20px;
+    color: #f0f8ff;
+    padding-top:20;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto
+
+}
+.slideText li{
+    height:30px;
+    width: 500px;
+    margin: 0 100px;
+    text-align:center;
+}
+
+.slick-track{
+  width:30px;
+}
+.slick-current.click-active{
+   width:30px;
+}
+.slideText .slick-arrow {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 0;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+  }
+  .slideText .slick-arrow::before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #09000d;
+    border-width: 3px 3px 0 0;
+    position: absolute;
+    top: 5px;
+    transform: rotate(45deg);
+  }
+  .slideText .slick-next {
+    right: 120;
+  }
+  .slideText .slick-prev {
+    left: 120;
+  }
+  .slideText .slick-next::before {
+    left: 3px;
+  }
+  .slideText .slick-prev::before {
+    border-width: 0 0 3px 3px;
+    right: 3px;
+  }
+ 
+
+
+/* .slick-prev{
+    right: 20px;
+    z-index: 99;
+}
+.slick-next{
+    right: 20px;
+    z-index: 99;
+} */
+
+
+/* .pmdMenu{
+    display: flex;
+}
+.pmdMenu img{
+    width:5;
+}
+ #pmdMenuArrowL{
+    padding-right: 17;
+}
+#pmdMenuArrowR{
+    padding-left: 17;
+} */
+
+/* ul.pmdList{	
+	position: absolute;
+	top:210px;
+	left:64%; 
+	display:none; 
+	position:fixed;
+	background-color:#f0f0f0;
+	border-radius: 5px;
+	z-index:1;
+} 
+*/
+/* ul.pmdList li{
+	list-style: none;
+	border-radius: 5px;
+	padding: 5px;
+	cursor:pointer;
+	transition: .3s;
+}
+ul.pmdList li:hover{
+	background-color:#deb887;
+}
+
+ul.pmdList::before{
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: -15px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #f0f0f0;;
+  border-left: 15px solid transparent;
+} */
+
+  /*
+.slider{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    margin:0 auto
+}
+
+.slider .slider-inner{
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+}
+
+.slider .slider-inner li{
+    position:absolute;
+    transition: all 3s 2s;
+    list-style:none;
+    opacity: 0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+.slider .slider-inner li.show{
+    position:absolute;
+    list-style:none;
+    width: 100vw;
+    height: 100%;
+    opacity: 1;
+    z-index: 1;
+    background-size: cover,contain;
+    background-position:center center;
+}
+*/
