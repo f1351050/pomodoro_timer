@@ -3,9 +3,9 @@
 作業25分と休憩5分のタイマーを繰り返します。
 (作業50分休憩10分へのタイマー切替可能）
 # DEMO
-![ポートフォリオ](https://github.com/f1351050/pomodoro_timer/assets/126868552/6ae5a732-361c-4bb4-832a-212371885cc2)  
+![ポートフォリオ](https://github.com/f1351050/pomodoro_timer/assets/126868552/f539aa5e-8512-494a-93d1-ef2f93e3fce9)
 ※時間が来たら、プッシュ通知　⇒　通知をクリックするとタイマーが始まります。  
-![スクリーンショット 2023-08-20 181030](https://github.com/f1351050/pomodoro_timer/assets/126868552/b9cf58d5-144c-42ca-b3e6-3acf242fc39d)
+![スクリーンショット 2023-08-20 181030](https://github.com/f1351050/pomodoro_timer/assets/126868552/aacbfab3-684b-4c4f-9db3-36a26550bd79)
 
 # 使用技術
 -javascript  
