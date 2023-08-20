@@ -1,6 +1,4 @@
-<!--
-  http://localhost/git/%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%83%BC/php_timer/index.php
--->
+
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -18,47 +16,45 @@
 			<div class="icon">
 
 				<h1>PMD</h1>
-				<span class="circle">
+				<!-- <span class="circle">
   				    <a href="php/report.php"><img src="iconImage/report.png" /></a>
-				</span>
+				</span> -->
 				<span class="circle">
 					<img id="soundStop" src="iconImage/sound_stop.png" />
 				</span>
 				<span class="circle">
-							<img id="kirokuMode" src="iconImage/kirokuMode.png" />
-							<!-- <img id="kirokuBan" src="iconImage/ban.png" /> -->
+							<img id="kirokuMode" src="iconImage/kirokuMode.png" />		
 				</span>
 			    <img id="kirokuBan" src="iconImage/ban.png" />
 				<span class="circle">
 					<img id="changeSt" src="iconImage/timer.png" />
 				</span>
-				
 			</div>
+			
 		  	<div class="heightCenter">
-
             	<div id="remainingTime"></div>
 			</div>	
 		
 			<ul class="slideText"></ul>
 			
+			<!-- ★　未実装
 			<dialog class="dlog" id="dialog">
 				<div class="test2">
-					<p>
-						<div id="mmmmm"></div>
+					<p>ｶﾃｺﾞﾘｰ変更
 						<form name="form">
-						<div id="categoryID"></div>
 						<input type="radio" value="work" name="categoryChenge" />work
 						<input type="radio" value="shRest" name="categoryChenge" />shRest
 						<input type="radio" value="lgRest" name="categoryChenge"/>lgRest
 					</p>
-					<p>set目
-						<input type="radio" value="1" name="pmdNumChange"/>1
-						<input type="radio" value="2" name="pmdNumChange"/>2
+					<p>set変更
+						<div id="setHenkou"></div>
 					</form>
 					</p>
-					<p><input type="button" id="formSub" value="変更"></p>
+					<input type="button" id="formSub" value="変更">
+					<button id="closeDlog">閉じる</button>
 				</div>
 			</dialog>
+			-->
 
 			<div class="heightCenter">
             	<div id="hidden">
@@ -67,18 +63,18 @@
     	    	</div>
 
                 <div class="btn">
-                	<button id="stopWatchSE" >start</button>
-                	<button id="stopWatchSE_reset" >reSet</button>
-                    <button id="set" >set</button>
-                    <button id="stop">stop</button>
-                    <button id="reStart">reStart</button>
-            	        <button id="changeTime">Start</button>
-            	        <button id="abort">abort</button>
+                	<button id="stopWatchSE" >START</button>
+                	<button id="stopWatchSE_reset" >RESET</button>
+                    <button id="set" >SET</button>
+                    <button id="stop">STOP</button>
+                    <button id="reStart">RESTART</button>
+            	        <button id="changeTime">START</button>
+            	        <button id="abort">ABORT</button>
                 </div>
 			</div>
             	<div id="res"></div>
 
-            <!---
+            <!---　★未実装・削除予定
             <div class="slider">
         	    <ul class="slider-inner">
         	    </ul>
@@ -88,14 +84,5 @@
 	 <script type="text/javascript" src="js/slick.min.js"></script>
      <script type="text/javascript" src="js/main.js"></script>
      <script type="text/javascript" src="js/ajax.js"></script>
-	 <!-- <script>
-		timerKindCurrent();
-		for(var i=1;i<4;i++){
-			var tk='timer'+i+'.category';
-			text='<input type="radio" value='+tk+'name="categoryChenge" />'+tk;
-		$("#categoryID").append(text);
-		}
-	
-		</script> -->
 </body>
 </html>

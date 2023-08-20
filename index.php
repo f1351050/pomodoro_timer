@@ -1,6 +1,4 @@
-<!--
-  http://localhost/git/%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%83%BC/php_timer/index.php
--->
+
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -18,49 +16,45 @@
 			<div class="icon">
 
 				<h1>PMD</h1>
-				<span class="circle">
+				<!-- <span class="circle">
   				    <a href="php/report.php"><img src="iconImage/report.png" /></a>
-				</span>
+				</span> -->
 				<span class="circle">
 					<img id="soundStop" src="iconImage/sound_stop.png" />
 				</span>
 				<span class="circle">
-							<img id="kirokuMode" src="iconImage/kirokuMode.png" />
-							<!-- <img id="kirokuBan" src="iconImage/ban.png" /> -->
+							<img id="kirokuMode" src="iconImage/kirokuMode.png" />		
 				</span>
 			    <img id="kirokuBan" src="iconImage/ban.png" />
 				<span class="circle">
 					<img id="changeSt" src="iconImage/timer.png" />
 				</span>
-				
 			</div>
+			
 		  	<div class="heightCenter">
-
             	<div id="remainingTime"></div>
 			</div>	
 		
 			<ul class="slideText"></ul>
 			
+			<!-- ★　未実装
 			<dialog class="dlog" id="dialog">
 				<div class="test2">
 					<p>ｶﾃｺﾞﾘｰ変更
-						<!-- <div id="mmmmm"></div> -->
 						<form name="form">
-						<!-- //<div id="categoryID"></div> -->
 						<input type="radio" value="work" name="categoryChenge" />work
 						<input type="radio" value="shRest" name="categoryChenge" />shRest
 						<input type="radio" value="lgRest" name="categoryChenge"/>lgRest
 					</p>
 					<p>set変更
 						<div id="setHenkou"></div>
-						<!-- <input type="radio" value="1" name="pmdNumChange"/>1
-						<input type="radio" value="2" name="pmdNumChange"/>2 -->
 					</form>
 					</p>
 					<input type="button" id="formSub" value="変更">
 					<button id="closeDlog">閉じる</button>
 				</div>
 			</dialog>
+			-->
 
 			<div class="heightCenter">
             	<div id="hidden">
@@ -80,7 +74,7 @@
 			</div>
             	<div id="res"></div>
 
-            <!---
+            <!---　★未実装・削除予定
             <div class="slider">
         	    <ul class="slider-inner">
         	    </ul>
