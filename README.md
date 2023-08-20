@@ -3,7 +3,9 @@
 作業25分と休憩5分のタイマーを繰り返します。
 (作業50分休憩10分へのタイマー切替可能）
 # DEMO
-![ポートフォリオ](https://github.com/f1351050/pomodoro_timer/assets/126868552/6ae5a732-361c-4bb4-832a-212371885cc2)
+![ポートフォリオ](https://github.com/f1351050/pomodoro_timer/assets/126868552/6ae5a732-361c-4bb4-832a-212371885cc2)　　
+※時間が来たら、プッシュ通知　⇒　通知をクリックするとタイマーが始まります。
+
 # 使用技術
 -javascript  
 -PHP  
