@@ -5,6 +5,7 @@
 # DEMO
 ![ポートフォリオ](https://github.com/f1351050/pomodoro_timer/assets/126868552/6ae5a732-361c-4bb4-832a-212371885cc2)  
 ※時間が来たら、プッシュ通知　⇒　通知をクリックするとタイマーが始まります。
+![スクリーンショット 2023-08-20 181030](https://github.com/f1351050/pomodoro_timer/assets/126868552/b9cf58d5-144c-42ca-b3e6-3acf242fc39d)
 
 # 使用技術
 -javascript  
