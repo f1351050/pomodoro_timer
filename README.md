@@ -3,7 +3,7 @@
 作業25分と休憩5分のタイマーを繰り返します。
 (作業50分休憩10分へのタイマー切替可能）
 # DEMO
-![スクリーンショット 2023-08-20 151633](https://github.com/f1351050/pomodoro_timer/assets/126868552/c3a33a64-db62-47bf-acbc-b43f0c8102fe)
+![スクリーンショット 2023-08-20 152247](https://github.com/f1351050/pomodoro_timer/assets/126868552/d85cd560-ffe0-4f82-a9d5-b34b301a4b78)
 # 使用技術
 javascript
 PHP
